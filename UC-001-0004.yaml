@@ -4,7 +4,7 @@ OpenSCENARIO:
   FileHeader:
     revMajor: 1
     revMinor: 1
-    date: '2023-03-06T10:22:12.015Z'
+    date: '2023-03-06T10:11:00.804Z'
     description: ''
     author: Beyza Nur  Kaya
   ParameterDeclarations:
@@ -106,9 +106,9 @@ OpenSCENARIO:
                   Position:
                     LanePosition:
                       roadId: ''
-                      laneId: '6841'
-                      s: 4.8331
-                      offset: -0.0519
+                      laneId: '3180'
+                      s: 32.4025
+                      offset: -0.0919
                       Orientation:
                         type: relative
                         h: 0
@@ -123,9 +123,9 @@ OpenSCENARIO:
                         - Position:
                             LanePosition:
                               roadId: ''
-                              laneId: '3154'
-                              s: 42.413
-                              offset: -0.1742
+                              laneId: '3180'
+                              s: 57.2262
+                              offset: 0.1522
                               Orientation:
                                 type: relative
                                 h: 0
@@ -135,9 +135,9 @@ OpenSCENARIO:
                         - Position:
                             LanePosition:
                               roadId: ''
-                              laneId: '3154'
-                              s: 42.413
-                              offset: -0.1742
+                              laneId: '3180'
+                              s: 57.2262
+                              offset: 0.1522
                               Orientation:
                                 type: relative
                                 h: 0
@@ -152,7 +152,7 @@ OpenSCENARIO:
                       dynamicsShape: step
                     SpeedActionTarget:
                       AbsoluteTargetSpeed:
-                        value: 2.7
+                        value: 5.4
               - ControllerAction:
                   AssignControllerAction:
                     Controller:
@@ -160,20 +160,20 @@ OpenSCENARIO:
                       Properties:
                         Property:
                           - name: maxSpeed
-                            value: '2.7'
+                            value: '5.4'
           - entityRef: ego
             PrivateAction:
               - TeleportAction:
                   Position:
                     LanePosition:
                       roadId: ''
-                      laneId: '6857'
-                      s: 0.247
-                      offset: 0.059
+                      laneId: '6841'
+                      s: 6.8366
+                      offset: -0.0867
                       Orientation:
                         type: relative
-                        h: -0.054
-                        p: 0
+                        h: 0
+                        p: -0.0
                         r: 0
               - RoutingAction:
                   AcquirePositionAction:
@@ -232,7 +232,7 @@ OpenSCENARIO:
                                     dynamicsShape: cubic
                                   LaneChangeTarget:
                                     AbsoluteTargetLane:
-                                      value: '3180'
+                                      value: '3154'
                         StartTrigger:
                           ConditionGroup:
                             - Condition:
@@ -249,9 +249,9 @@ OpenSCENARIO:
                                         Position:
                                           LanePosition:
                                             roadId: ''
-                                            laneId: '3154'
-                                            s: 42.413
-                                            offset: -0.1742
+                                            laneId: '3180'
+                                            s: 57.2262
+                                            offset: 0.1522
                                             Orientation:
                                               type: relative
                                               h: 0
